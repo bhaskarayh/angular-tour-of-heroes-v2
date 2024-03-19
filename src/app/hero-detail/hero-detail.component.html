@@ -4,6 +4,10 @@
     <div>
         <span>id:</span>{{hero.id}}
         <!-- <label for="hero-name">Hero name:</label><input type="text" id="hero-name" [(ngModel)]="hero.name"> -->
-        <label for="hero-name">Hero name:</label><input type="text" id="hero-name">
+        <label for="hero-name">Hero name: </label><input type="text" id="hero-name" [(ngModel)]="hero.name"
+            placeholder="Hero Name" disabled>
     </div>
 </div>
+
+
+<div><button type="button" (click)="goBack()">Go Back</button></div>
